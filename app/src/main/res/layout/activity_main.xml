@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chenxu.myapplication.MainActivity">
+
+    <com.example.chenxu.myapplication.CustomerScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tv_one"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="111111"
+                android:gravity="center"
+                android:textSize="100sp"
+                android:visibility="gone"
+                />
+            <TextView
+                android:id="@+id/tv_two"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="22222"
+                android:gravity="center"
+                android:textSize="100sp"
+                />
+            <TextView
+                android:id="@+id/tv_three"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="3333"
+                android:gravity="center"
+                android:textSize="100sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="3333"
+                android:gravity="center"
+                android:textSize="100sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="3333"
+                android:gravity="center"
+                android:textSize="100sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="3333"
+                android:gravity="center"
+                android:textSize="100sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="3333"
+                android:gravity="center"
+                android:textSize="100sp"
+                />
+
+        </LinearLayout>
+
+
+
+    </com.example.chenxu.myapplication.CustomerScrollView>
+
+</LinearLayout>
